@@ -22,6 +22,11 @@
 .DS_Store
 *.pem
 
+# agent tooling (local AI agent skills — not part of the app)
+.agents/
+.claude/
+skills-lock.json
+
 # debug
 npm-debug.log*
 yarn-debug.log*
